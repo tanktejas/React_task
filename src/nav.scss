@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); 
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+
+a{
+  
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.main{
+    height: 108px;
+    display: flex;
+    justify-content: space-around;   
+    flex-direction: row;
+   align-items: center;
+    background:linear-gradient(to bottom,#000000c4, #2d2525e0);
+}
+.main .image img{
+    margin-top: 3px;
+    height: 87px;
+    width: 101%;
+    border-radius: 50%;
+    // border: 2px solid #080808c9;
+    box-shadow: 1px 1px 4px black;
+}
+.main .image img:hover{
+    cursor: pointer;
+}
+.main .navigation .navlink{
+         display: flex;
+         flex-direction: row;
+         margin: auto;
+         align-items: center;
+         margin-top:36px;
+}
+.main .navigation .navlink li{  
+            list-style: none;
+            padding: 0px 20px;
+}
+.navlink{
+    margin: 0px !important;
+}
+.navlink .menu a .ic{
+    font-weight: 500;
+   font-size: 44px;
+    color: #EE9C14;
+    display: none;
+}
+
+ 
+
+.navlinkforsmalldevice{
+    background-color: #080808a4;
+    height: auto;
+    /* transition:all 12s;  */
+    border-radius: 0px 0px 18px 18px;   
+}    
+.navlinkforsmalldevice ul{
+    padding-top:24px;
+}
+.navlinkforsmalldevice ul li a{
+    color:  white; 
+    font-size: 23px;
+    font-weight: 500;   
+}   
+.navlinkforsmalldevice ul li{
+
+    list-style: none;
+    height: 46px;
+    text-align: center;
+     
+}
+.navlink  li {
+//  border: 2px solid rgb(110, 108, 96);
+ border-radius: 50%;
+ text-shadow: 5px 6px 3px black;
+}
+.navlink  li:hover{
+    animation: anim 1s alternate infinite linear;
+
+}
+.navlink  li a:hover{
+    color: rgb(236, 149, 49);
+    transition: 0.3s;
+   
+}
+@keyframes anim {
+    0%{
+        transform: rotateX(0deg) ;
+    }
+    100%{
+        transform: rotateX(360deg);
+       
+    }
+}
+.navigation ul li:nth-child(1) a svg{
+    font-size: 49px !important;
+}
+.navigation ul li:nth-child(1){
+    margin-right: 0px;
+    padding-right: 0px !important;
+  
+}
+
+ /* ..media query */
+@media (max-width:916px) {
+  
+    .main{
+        justify-content:space-around;
+    }
+     
+    .navlink li{
+        display:  none;
+    }
+    .navlink .menu{
+        display: block;    
+    }
+    .main .image img{
+        height: 81px;
+        width: 190px;
+    }
+    .ic{
+        display: block !important;
+    }
+
+}
+.menu div{
+    width: 34px;
+    height: 34px;
+}
+@media (max-width:600px) {
+  .main .image img{
+        height: 82px;
+        width: 172px;
+    }
+}

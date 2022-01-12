@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.blm{
+    padding-top: 13px; 
+    background-color: #080808c9;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+.blm div{
+    font-size: 15px;
+    margin-left: 13px;
+    margin-right: 13px;
+    border-radius: 17px;
+}
+.form h2{
+    font-size: 30px;
+}
+.blm .formforjoining{
+    height: 100%;
+    padding: 10px !important;
+    border-radius: 12px;
+    margin: 14px;
+    background: linear-gradient(to bottom,#070707, #642828c9);
+}
+.bloghead{
+    width: 1000px;
+    background: linear-gradient(#070707,#572f2fc9);
+    border-radius: 15px;
+    padding: 20px;
+}
+.form{
+    margin-top: 13px;
+    border-radius: 15px; 
+    height: 100%;
+}
+
+.form h2,
+.form p,  
+.form input,
+.form button{  
+    /* width: 100% !important; */
+    padding:4px;
+    margin-left: 12px;
+    margin-top: 6px;
+}
+.form input{
+     width: auto;
+    height: 45px;
+    border: 1px solid black;
+    font-size: 24px;
+    
+}
+.bloghead:hover,
+.formforjoining:hover{
+    transform:translateZ(27px);
+    transition: all 1.2s;
+    box-shadow: 3px 3px 18px 4px rgb(46, 28, 28);
+}  
+.form button{
+    display: block;
+    margin-top: 30px;
+    width: 150px;
+    height: 45px;
+    background-color: red;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 8px;
+    font-weight: 500;
+} 
+p,ul li{
+    font-size: 20px;
+    
+    font-family: 23px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 13px;
+    padding: 3px;
+}
+legend{
+    text-align: center;
+}
+ fieldset{
+     border: 1px solid black;
+     border-radius: 19px;
+    
+ }
+.headcomment{
+    background: url('./fir-burn.jpg') repeat-x;
+    background-size: contain;
+    text-transform: uppercase;
+    background-clip: text;
+    font-size: 44px;
+    color: rgba(255, 255, 255, 0.2);
+    animation: fire 4s linear infinite;
+    transform: translateZ(12px);
+    text-shadow: 9px 15px 14px #413223;
+}
+
+.commentshead{  
+    color: white;
+    margin: 0px;
+    background: linear-gradient(to bottom,#070707, #642828c9);
+}
+.headcomment{
+    text-align: center;
+}
+@media  (max-width:953px) {
+    .blm{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:654px) {
+ .commentshead{
+    margin: 0px;
+ }   
+}
+@media (max-width:379px)  {
+    .bloghead div h2{
+        font-size: 24px;
+    }
+    .bloghead p{
+        font-size: 16.7px;
+    }
+    .blm .formforjoining {
+       width: 341px;
+    }
+  .form input{
+      width: 208px;
+  }
+}

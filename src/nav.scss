@@ -81,23 +81,13 @@ a{
  text-shadow: 5px 6px 3px black;
 }
 .navlink  li:hover{
-    animation: anim 1s alternate infinite linear;
-
+ 
 }
 .navlink  li a:hover{
     color: rgb(236, 149, 49);
     transition: 0.3s;
-   
 }
-@keyframes anim {
-    0%{
-        transform: rotateX(0deg) ;
-    }
-    100%{
-        transform: rotateX(360deg);
-       
-    }
-}
+ 
 .navigation ul li:nth-child(1) a svg{
     font-size: 49px !important;
 }

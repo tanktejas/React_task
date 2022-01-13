@@ -10,8 +10,7 @@ import './App.css';
 import React from 'react';
 import Nav from './nav.js';
 import Footer from './footer.js';
-
- 
+import Spi from './spinner'
 class App extends React.Component{
   //  constructor(){
   //   super();   
@@ -45,8 +44,7 @@ class App extends React.Component{
   
       return (
     <>
-     
-      <Router>
+           <Router>
         <Routes>    
             <Route exact path='/' element={<Blog/>}>
       

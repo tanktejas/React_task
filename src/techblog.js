@@ -3,6 +3,8 @@ import './blog.css';
 import Nav from './nav';
 import Item from './item.js'
 import Addcomment from './commrntadd.js';
+import Spinnner from './spinner';
+ 
 class Blog extends react.Component{
      
     constructor(){
@@ -47,7 +49,7 @@ class Blog extends react.Component{
         if(!flag){
             return(  
                 <>
-                    <h1>wait ....</h1>
+                   <Spinnner/>
                 </>
              )  
         } 

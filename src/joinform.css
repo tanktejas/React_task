@@ -1,0 +1,92 @@
+.form h2{
+    font-size: 30px;
+    color: white;
+    
+}
+
+.formforjoining{
+    height: auto;
+    max-width: 440px;
+    padding: 10px !important;
+    border-radius: 12px;
+    margin: 14px;
+    background: linear-gradient(to bottom,#383030, #642828c9);
+}
+
+.form{
+    margin-top: 13px;
+    border-radius: 15px; 
+    height: 100%;
+}
+
+.form h2,
+.form p,  
+.form input,
+.form button{  
+    /* width: 100% !important; */
+    padding:4px;
+    margin-left: 12px;
+    margin-top: 6px;
+}
+
+.form input{
+     width: auto;
+    height: 45px;
+    border: 1px solid black;
+    font-size: 24px;
+    
+}
+.formforjoining:hover{
+    transform:translateZ(27px);
+    transition: all 1.2s;
+    box-shadow: 3px 3px 18px 4px rgb(46, 28, 28);
+}  
+
+.form button{
+    display: block;
+    margin-top: 30px;
+    width: 150px;
+    height: 45px;
+    background-color: red;
+    font-size: 15px !important;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 8px;
+    font-weight: 800 !important;
+} 
+
+@media (max-width:379px){
+  
+    .formforjoining {
+    width: 341px;
+ }
+}
+.mainbox{
+    width: 100%;
+    height:100%;
+
+}
+.amainforboth{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.amainforboth .formforjoining:nth-child(2){
+    height: auto;
+} 
+.amainforboth .formforjoining:nth-child(2) input{
+    margin-bottom: 30px;
+}
+.form .mar,
+.form .h2{
+    margin-bottom: 26px;
+}
+@media  (max-width:384px) {
+    .form input{
+        max-width: 269px !important;
+    }
+    .form h2{
+        font-size: 207%;
+    }
+}

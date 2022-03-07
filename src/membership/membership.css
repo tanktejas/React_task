@@ -1,0 +1,57 @@
+.membership{
+    /* background: black; */
+    padding: 21px;
+    background: linear-gradient(to bottom, #0b0a0af0, #151111f7);
+} 
+.aboutmembership{
+    display: block;
+    margin: auto;
+    width: 90%;
+    color:  white;
+    background: linear-gradient(to bottom,#383030, #642828c9);
+   border-radius: 14px;
+}
+.aboutmembership h1 svg{
+    font-size: 23px;
+    color: orange;
+}
+.aboutmembership p{
+    color: rgb(219 217 217);  
+}
+.aboutmembership h1{
+    text-align: center;
+    padding-top: 23px;
+    background: url('../fir-burn.jpg') repeat-x;
+    background-size: contain;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* font-size: 44px; */
+    color: rgba(255, 255, 255, 0.2);
+    animation: fire 4s linear infinite;
+    transform: translateZ(12px);
+    text-shadow: 7px 12px 13px #4b3823;
+}
+.aboutmembership:hover{
+    transition: all 1.2s;
+    box-shadow: 3px 3px 18px 4px rgb(46 28 28);
+}
+.aboutmembership p{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.butformem{
+    font-size: 18px !important;
+    font-weight: 900 !important;
+}
+/* for form  */
+@media  (max-width:446px) {
+    .aboutmembership h1{
+        font-size: 89%;
+    }
+      .ab input{
+         width: 242px;
+         font-size: 22px;
+         border-radius: 17px;
+      }
+}       

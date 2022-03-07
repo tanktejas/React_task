@@ -1,0 +1,73 @@
+.mainforabout{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    padding: 12px;
+}
+.aboutmain h1{
+    padding-top: 29px;
+   text-align: center;
+   background: url(../fir-burn.jpg) repeat-x;
+   background-size: contain;
+   text-transform: uppercase;
+   -webkit-background-clip: text;
+   background-clip: text;
+   font-size: 44px;
+   color: rgba(255, 255, 255, 0.2);
+   animation: fire 4s linear infinite;
+   transform: translateZ(12px);
+   text-shadow: 7px 12px 13px #4b3823;
+}
+.aboutmain{
+    background: linear-gradient(to bottom, #000000f3, #422424d2);
+
+}
+.mainforabout div{
+    margin-top: 28px; 
+}
+.mainforabout div:hover{
+    box-shadow: 4px 4px 9px black; 
+    transition: 0.9s;
+}
+.website-info{
+    width: 90%;
+    display:  block;
+    margin: auto;
+    background: #1F1A36;
+    border-radius: 13px;
+   margin-bottom: 12px;
+}
+.real-info{
+   
+}
+ 
+.real-info p{ 
+   font-size: 101%;
+   color: white;
+}
+.real-info h1{
+    padding: 0px;
+    color: white;
+    text-align: center;
+    background: url('../fir-burn.jpg') repeat-x;
+    background-size: contain;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    background-clip: text; 
+    font-size: 44px;
+    color: rgba(255, 255, 255, 0.2);
+    animation: fire 4s linear infinite;
+    transform: translateZ(12px);
+    text-shadow: 7px 12px 13px #4b3823;  
+}
+.footer-dark{
+    margin-top: -14px;
+}
+@media (max-width:498px) {
+    .website-info{
+        margin: 0px;
+    }
+    .real-info p{
+        font-size: 77%;
+    }
+}

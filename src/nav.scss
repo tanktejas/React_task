@@ -18,7 +18,7 @@ a{
     justify-content: space-around;   
     flex-direction: row;
    align-items: center;
-    background:linear-gradient(to bottom,#000000c4, #2d2525e0);
+   background: linear-gradient(to bottom, #000000c4, #171515ed);
 }
 .main .image img{
     margin-top: 3px;
@@ -94,9 +94,11 @@ a{
 .navigation ul li:nth-child(1){
     margin-right: 0px;
     padding-right: 0px !important;
-  
 }
-
+.navlinkforsmalldevice ul li:last-child{
+    margin-bottom: 0px;
+    padding-bottom: 55px; 
+}
  /* ..media query */
 @media (max-width:916px) {
   
@@ -118,6 +120,9 @@ a{
         display: block !important;
     }
 
+}
+.form p{
+    color:  white !important;
 }
 .menu div{
     width: 34px;

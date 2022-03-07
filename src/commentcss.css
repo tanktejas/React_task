@@ -55,7 +55,21 @@
 }
 @media (max-width:500px) {
     *{
-        font-size: 22px ;  
+        font-size: 18px ;  
     }
+  .rric{
+      margin-top: 10px;
+  }
+  .q{
+   padding: 1px 20px !important;
+  }
+  .tranding-topics h1{
+      font-size: 38px !important;
+  }
+}
 
+@media (max-width:372px) {
+    .tranding-topics h1{
+        font-size: 23.5px !important;
+    }  
 }

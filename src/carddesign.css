@@ -1,0 +1,32 @@
+
+@media (max-width:713px) {
+    .card div button div p:nth-child(1){
+        font-weight: 800;
+    }
+    .card div button div p:nth-child(2){
+        font-size: 15px;
+    }
+    .card div{
+        max-width: 404px !important;
+    }
+}
+.card {
+    position: relative;
+}
+ 
+.vote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.vote svg{
+    font-size:  24px;
+    color:  white;
+}
+.vote p{
+    font-size: 8px;
+}     
+.card .cardinner{
+    border-radius: 16px;
+}

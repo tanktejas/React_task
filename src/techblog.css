@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.card div {
+    max-width: 324px;
+}
+.main2{
+    display: flex;
+     justify-content: center; 
+    flex-wrap: wrap;
+    padding-top: 32px;
+}.card {
+    border-radius: 16px;
+} 
+.main2 .card{
+     
+     margin: 23px;
+}    
+button div{
+    /* background:linear-gradient(to bottom,#1d1c1cc4, #534040e0); */
+}
+button div p{
+    font-weight: 600;
+    font-size: 23px;
+    margin: 0px ;
+}
+button div p{
+    color:  white !important;
+}
+ 
+.card div{   
+    background: linear-gradient(to bottom,#000000e0, #000000f1) !important;
+}
+.actionofcard{
+    display: flex;
+    justify-content: space-around;
+    margin: 9px;
+    background: linear-gradient(to bottom,#3c2929c4, #502b2bf1) !important;
+}
+.card{ 
+    border: 1px solid rgb(42 229 212 / 99%);  
+    transition: 0.4s;
+}
+.card:hover{
+    border: 1.9px solid rgb(42 229 212 / 99%);
+    box-shadow: 1px 6px 30px -6px #40a9ff;
+} 
+.actionofcard button{
+    width: 97px;
+    height: 46px;
+    background-color: rgb(35 32 207);
+    color: white;
+    border-radius: 12px;
+    font-size: 18.2px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+button img{
+    filter: saturate(146%) contrast(120%);
+}
+.mainfordis{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: linear-gradient(to bottom, #0b0a0af0, #151111f7);
+}    
+

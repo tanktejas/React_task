@@ -3,78 +3,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} 
 .blm{
     padding-top: 13px; 
-    background-color: #080808c9;
+    background: linear-gradient(to bottom, #0b0a0af0, #151111f7);
     display: flex;
     color: white;
     justify-content: center;
 }
- 
+
 .blm div{
     font-size: 15px;
     margin-left: 13px;
     margin-right: 13px;
     border-radius: 17px;
 }
-.form h2{
-    font-size: 30px;
-}
-.blm .formforjoining{
-    height: 100%;
-    padding: 10px !important;
-    border-radius: 12px;
-    margin: 14px;
-    background: linear-gradient(to bottom,#070707, #642828c9);
-}
+    
 .bloghead{
-    width: 1000px;
+    width: 1368px;
+    height: 100%;
     background: linear-gradient(#070707,#572f2fc9);
     border-radius: 15px;
     padding: 20px;
+    padding-left: 15px; 
 }
-.form{
-    margin-top: 13px;
-    border-radius: 15px; 
-    height: 100%;
-}
-
-.form h2,
-.form p,  
-.form input,
-.form button{  
-    /* width: 100% !important; */
-    padding:4px;
-    margin-left: 12px;
-    margin-top: 6px;
-}
-.form input{
-     width: auto;
-    height: 45px;
-    border: 1px solid black;
-    font-size: 24px;
-    
-}
-.bloghead:hover,
-.formforjoining:hover{
+ 
+.bloghead:hover {
     transform:translateZ(27px);
     transition: all 1.2s;
     box-shadow: 3px 3px 18px 4px rgb(46, 28, 28);
 }  
-.form button{
-    display: block;
-    margin-top: 30px;
-    width: 150px;
-    height: 45px;
-    background-color: red;
-    font-size: 24px;
-    font-family: 'Ubuntu', sans-serif;
-    border-radius: 8px;
-    font-weight: 500;
-} 
+ 
 p,ul li{
-    font-size: 20px;
+    font-size: 18px;
     
     font-family: 23px;
     font-family: 'Ubuntu', sans-serif;
@@ -109,27 +70,68 @@ legend{
 .headcomment{
     text-align: center;
 }
+.innerdivforrattng{
+    display:  flex;
+    justify-content: space-between;
+}
+.iconforrat{
+    display:  flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.mainbox,.form{
+    margin-left: 0px !important;
+}
+@media (max-width:573px) {
+    html{
+        font-size: 80% !important;
+    }
+}
+.iconforrat svg{
+    font-size: 2rem;
+}
+.iconforrat p{
+    margin: 0px;
+    font-size: 1.7rem !important;
+    color:  rgb(211, 144, 43);
+    font-weight: 700;
+}
 @media  (max-width:953px) {
     .blm{
         flex-wrap: wrap;
     }
 }
-@media (max-width:654px) {
+.contentoftech,
+.contentoftech P{
+    margin-right: 0px;
+}
+@media (max-width:654px){
+   .bloghead div{
+       margin-left: 12px;
+   }
+    .bloghead{
+        padding-left: 0px;
+    }
+    .contentoftech,
+    .innerdivforrattng div{
+        font-size: 70% !important;
+    }
  .commentshead{
     margin: 0px;
  }   
 }
+.innerdivforrattng div:nth-child(1){
+    font-size: 1.5rem !important;
+}
 @media (max-width:379px)  {
+    .contentoftech,.innerdivforrattng div{
+        font-size: 60% !important;
+    }
     .bloghead div h2{
-        font-size: 24px;
+        font-size: 20.5px;
     }
     .bloghead p{
         font-size: 16.7px;
     }
-    .blm .formforjoining {
-       width: 341px;
-    }
-  .form input{
-      width: 208px;
-  }
+ 
 }
